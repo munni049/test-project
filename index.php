@@ -17,6 +17,8 @@ $apiAgent = ApiAgentFactory::createApiAgent(ApiAgentFactory::JSON, $auth);
 $history = $apiAgent->accountName("U2194343");
 
 echo $history;
+
+echo "accunt created";
 ?>
 </body>
 </html>
